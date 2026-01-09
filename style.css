@@ -26,6 +26,10 @@
     margin: 0 auto;
 }
 
+.btn:hover {
+    background-color: #36764f;
+}
+
 .navbar {
     padding: 16px 120px;
     /* border: 1px solid red; */
@@ -37,7 +41,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 
@@ -71,24 +75,36 @@
     border: 1px solid transparent;
 }
 
-#banner{
-
-    /* max-width: 1600px; */
-    border: 1px solid red;
-    background: url("./assets/hero-bg.png") no-repeat;
-    padding: 118px 120px 182px;
-    background-position: center center;
-    
-
-
+.acces-btn:hover {
+    background-color: #346948;
 }
 
+#banner {
+    background: url("./assets/hero-bg.png") no-repeat ;
+    background-position: center center;
+    height: 674px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .banner-main{
-    max-width: 1360px;
+    width: 1360px;
     margin: 0 auto; 
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap:27px;
+    padding: 70px 120px 134px;
+}
 
-
+.banner-info{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
 }
 
 .banner-card{
@@ -99,7 +115,8 @@
     margin: 0px auto;
     display: flex;
     align-items: center;      
-    gap: 6px;       
+    gap: 6px;    
+    /* border: 1px solid red;    */
 }
 
 .banner-card p{
@@ -110,9 +127,6 @@
 }
 
 
-.banner-content{
-    padding: 16px;
-}
 .banner-content h1 {
     /* margin: 16px 295px; */
     font-size: 72px;
@@ -128,14 +142,15 @@
     color: #FFFFFF;
     text-align: center;
     font-weight: 400px;
+    /* border: 1px solid red; */
 }
 
 .btn-center{
-    margin-top: 32px;
     display: flex;
     justify-content: center;
     list-style: none;
     gap: 16px;
+    /* border: 1px solid red; */
 }
 
 .btn2{
@@ -152,17 +167,22 @@
     margin: 0 auto; 
 }
 
+.btn2:hover {
+    background-color: #ffffff27; 
+}
+
 #note{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 0 120px;
 }
 .note-container{
     max-width: 1360px;
     margin: 0 auto;
+    
 }
 
 .note-heading{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-align: center;
     margin: 0 auto;
     display: flex;
@@ -173,7 +193,7 @@
 }
 
 .note-heading h2{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-size: 48px;
     font-weight: bold;
     color: #001931;
@@ -184,7 +204,7 @@
 }
 
 .note-heading p{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-size: 16px;
 font-weight: 400;
 line-height: 20px;
@@ -203,8 +223,7 @@ color: #627382;
     padding: 55px 24px;
     max-width: 322px;
     border-radius: 8px;
-    box-shadow: 0 6px 50px 0 #0000000F;
-
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
 }
 
 .circle {
@@ -242,14 +261,14 @@ color: #627382;
 
 .solution{
     padding: 120px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .solution-container{
     max-width: 1360px;
     margin: 0 auto;
     display: flex;
     gap: 60px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     
 }
 
@@ -313,13 +332,13 @@ line-height: 20px;
 
 .access{
     padding: 0 120px 120px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .access-container{
     max-width: 1360px;
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-align: center;
     padding: 80px 40px;
     background-color: #F7F6F2;
@@ -342,7 +361,7 @@ color: #627382;
 }
 
 .access-option{
- border: 1px solid red;
+ /* border: 1px solid red; */
  margin-top: 24px;   
 }
 
